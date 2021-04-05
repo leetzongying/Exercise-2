@@ -15,12 +15,13 @@ public class Smartphone {
 		System.out.println("Released Year: " + releasedyear);
 	}
 	
-	void printTotal(int p, int q, String b){
-        totalPrice = (p*q);
-        
-        System.out.println("The Unit Price of "+b+" is : RM "+p);
-        System.out.println("The Total Unit Purchased is : " + q + " units.");
-        System.out.println("The Total Price for "+q+" units of "+b+" is : RM"+totalPrice);
+	void printTotal(boolean notification){
+        if (notification == true) {
+        	System.out.println("You have incoming messages");
+        }
+        else {
+        	System.out.println("No notes will be received at this moment");
+        }
     }
 	
 	void weight(String brand, double weight, int quantity) {
