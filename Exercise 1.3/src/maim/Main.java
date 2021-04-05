@@ -13,7 +13,7 @@ public class Main {
 		 
 		System.out.println("\n");
 		 
-		 Huawei.printTotal(599, 3, "P30");
+		 Huawei.printTotal(true);
 		 Huawei.weight("P30",1.1,3);
 		 Huawei.alarm(7,25,40);
 		 
@@ -24,7 +24,7 @@ public class Main {
 		 
 		 System.out.println("\n");
 		 
-		 Samsung.printTotal(699, 3, "Galaxy S21");
+		 Samsung.printTotal(false);
 		 Samsung.weight("Galaxy S21",0.8, 3);
 		 Samsung.alarm(8,30,40);
 		 
@@ -35,7 +35,7 @@ public class Main {
 		 
 		 System.out.println("\n");
 		 
-		 Apple.printTotal(569, 3, "iPhone 12 Pro");
+		 Apple.printTotal(false);
 		 Apple.weight("iPhone 12 Pro",1.2, 3);
 		 Apple.alarm(9,10,25);
 		 
@@ -46,7 +46,7 @@ public class Main {
 		 
 		 System.out.println("\n");
 		 
-		 Nokia.printTotal(569, 3, "Nokia 3310");
+		 Nokia.printTotal(true);
 		 Nokia.weight("Nokia 3310",1.5, 3);
 		 Nokia.alarm(6,17,58);
 		
